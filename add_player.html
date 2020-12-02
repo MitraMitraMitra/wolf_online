@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODJUTOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="webfontkit-20201030-171823/stylesheet.css">
+    <link rel="stylesheet" href="styling.css">
+    <script src="eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <div class="w3-display-topmiddle" style="margin-top: 3rem;">
+        <h1 class="w3-display-middle" style=" font-size: 50px;">MODJUTOR</h1>
+    </div>
+    <img class="logo" src="warewolf-icon_v1.png" alt="logo">
+
+    <div class="w3-display-middle">
+        <div class="w3-container">
+            <h2 class="text">Add Player Names:</h2>
+            <p>Please make sure that every name is unique</p>
+        </div>
+        <div id="playerNames" class="myBox">
+            <!--<input type="text" id="firstPlayer" placeholder="Enter name">-->
+        </div>
+    </div>
+
+        <button onclick="checkPlayers();" class="w3-display-bottomright btn-right rectangle w3-ripple play" style="margin-left: 50%;">NEXT</button>
+        <a href="player_number.html">
+            <button class="w3-display-bottomleft btn-left rectangle w3-ripple play">BACK</button>
+        </a>
+
+</body>
+<!--<script>addPlayers();</script>-->
+</html>
+<script>addPlayers(); writePlayers();</script>

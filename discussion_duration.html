@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODJUTOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="webfontkit-20201030-171823/stylesheet.css">
+    <link rel="stylesheet" href="styling.css">
+    <script src="eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <!--<script>names = sessionStorage.getItem("N"); alert(N);</script>-->
+</head>
+<body>
+    <div class="w3-display-topmiddle" style="margin-top: 3rem;">
+        <h1 class="w3-display-middle" style=" font-size: 50px;">MODJUTOR</h1>
+    </div>
+    <img class="logo" src="warewolf-icon_v1.png" alt="logo">
+    <form class="text-container">
+        <label for="players" class="text">Enter duration of discussion round:</label>
+        <br>
+        <input type="text" id="theTime" placeholder="00:00" style="border-width: 0 0 3px;">
+        
+    </form>
+
+    <div class="w3-display-right icon" >
+        <img src="clock1.png" alt="clock" style="		width: 40%;
+		height: auto;
+		margin-top: 55%;
+		margin-left: 25%;
+		margin-right: 5%;">
+    </div>
+
+        <button onclick="getTime()" class="w3-display-bottomright btn-right rectangle w3-ripple play">NEXT</button>
+
+        <button onclick="writePlayers1();" class="w3-display-bottomleft btn-left rectangle w3-ripple play">BACK</button>
+
+    
+
+</body>
+</html>
